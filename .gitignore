@@ -17,8 +17,8 @@
 # these rules might exclude image files for figures etc.
 # *.ps
 # *.eps
-# *.pdf
-
+*.pdf
+*xlsx
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl
 *.bcf
@@ -178,3 +178,11 @@ TSWLatexianTemp*
 
 # KBibTeX
 *~[0-9]*
+
+#other
+.DS_Store
+.~lock.CitationsFrancais.xlsx#
+attachments/
+doclicense-CC-by-sa-4.0-latex.tex
+images/
+yaosoft.tex
