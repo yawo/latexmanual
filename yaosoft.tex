@@ -1,0 +1,241 @@
+\documentclass[10pt,french]{beamer}
+
+\usetheme[progressbar=frametitle]{metropolis}
+
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+
+\usepackage{pgfplots}
+\usepgfplotslibrary{dateplot}
+
+\usepackage{xspace}
+\usepackage{wasysym}
+\usepackage{ marvosym }
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\usepackage[francais]{babel}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+
+\newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
+\newcommand{\blochdr}[1]{\tiny{\textsc{#1}}}
+\newcommand{\YS}{\textsc{\textsc{\Huge{Yao Soft}}}}
+\newcommand{\itsm}[1]{\textit{{\scriptsize #1}}}
+
+
+\definecolor{lightgrey}{HTML}{F0F0FF}
+\definecolor{fancyblue}{HTML}{257DA3}
+
+\title{\YS\ }
+\subtitle{Conseil en Système d'information \& Gestion d'entreprise}
+\date{\today}
+\author{présentation de Yawo KPOTUFE}
+\institute{Architecte - Expert logiciel}
+\titlegraphic{\hfill\includegraphics[height=1cm]{logo}}
+
+
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Sommaire}
+  \setbeamertemplate{section in toc}[sections numbered]
+  \tableofcontents[hideallsubsections]
+\end{frame}
+
+\section{Introduction}
+
+\begin{frame}[fragile]{Qui sommes nous \?}
+Né de la volonté d'offrir un consulting pragmatique, d'excellence et centré sur le résultat rapide,
+Yao Soft est cabinet d'experts organisé en deux pôles:
+\begin{itemize}
+\item {\textbf{Digital:} 
+\footnotesize{piloté par Mr \textsf{\textit{Yawo KPOTUFE}}\footnote{LinkedIn: \href{https://fr.linkedin.com/in/yawokpotufe}{https://fr.linkedin.com/in/yawokpotufe}
+}, un architecte logiciel de plus de 8 ans d'expérience.}}
+
+\item {\textbf{Management:}   
+\footnotesize{piloté par Mr \textsf{\textit{Mawuli AKPAKI}}\footnote{LinkedIn: \href{https://www.linkedin.com/in/mawuli-akpaki-8970b867}{https://www.linkedin.com/in/mawuli-akpaki-8970b867}
+}, un PDG, Entrepreneur et Expert en management avec plus de 10 ans d'expérience.}}
+
+\end{itemize}
+ 
+\end{frame}
+
+\section{Notre offre digitale}
+\begin{frame}[fragile]{Une expérience solide}
+ Fort de notre riche expérience informatique:
+ \begin{itemize}
+ 	\item sur divers aspects des systèmes d'informations d'entreprise \\ \itsm{(Comptabilité, CRM, Ventes, RH, Integration de données, ERP... )}
+ 	\item sur plusieurs métiers \\ {\itsm{(banque, assurance, luxe, ecommerce, distribution, textile... )}},
+ 	\item sur plusieurs marchés\\  \itsm{(France, Maroc, Togo)},
+ \end{itemize}
+ nous vous proposons un catalogue riche de prestations axées sur la \emph{\textbf{qualité}} et une \emph{\textbf{maîtrise des coûts et délais}}.
+  
+\end{frame}
+
+\begin{frame}[fragile]{Une offre variée}
+ Nos principales prestations en informatique d'entreprise se déclinent sous trois angles:
+ \begin{description}
+  \item[Conseil SI]{Nous vous accompagnons tout au long de vos transformations digitales, avec les meilleures solutions, alignées sur les standards actuels et adaptées à vos besoins}
+  \item[Formations]{Nous formons vos équipes sur des outils/solutions (Office, ERPs, Méthodes Agiles, Développement, DevOps,..)}
+  \item[Développement]{Notre équipe de développement vous permet de développer des applications de qualité, ultra performantes, en temps records: \textsl{innover rapidement et à moindre coût} !}
+ \end{description}
+\end{frame}
+
+\section{Notre offre de management}
+\begin{frame}[fragile]{Plus d'une décennie en gestion d'entreprise }
+ Des années passées dans le management d'entreprises et organisations nous donnent une maîtrise:
+ \begin{itemize}
+ 	\item des Comptes et Impôts \\ \itsm{(plans comptables, expertise sur les détails fiscaux, audits)}
+ 	\item des Ressource Humaines \\ {\itsm{(la gestion du personnel, gestion des conflits, des congés, salaires, contrats )}},
+ 	\item de la gestion de projets et des études internes \\ {\itsm{(cadrage des initiatives de l'organisation)}},
+ 	\item des enjeux d'expansion et de développement d'activité\\  \itsm{(adaptation et croissance de l'entreprise)},
+ \end{itemize}
+Cette maîtrise est mise au service aux entreprises avec des prestations ciblées et à forte valeur ajoutée.
+  
+\end{frame}
+
+\begin{frame}[fragile]{Une offre pour développer l'entreprise}
+ Nos services en gestion d'entreprise se déclinent sous quatre angles:
+ \begin{description}
+  \item[Comptabilité\& Fiscalité]{Nous prenons en main ou assistons sur la tenue d'une comptabilité complète et régulière. Nous gérons votre fiscalité, les paiements, et vous conseillons sur les bonnes pratiques adaptées à votre réalité, etc.}
+  
+  \item[Formations]{Nous animons des formations sur le management, la gestion des RH, des coachings d'entreprise, etc.}
+  
+  \item[Ressources Humaines]{Nous vous accompagnons ou prenons en main vos processus de recrutement, la gestion de vos équipes:      \textsl{recrutez une fois pour de bon, les meilleurs et les plus motivés} !}
+  
+  \item[Etudes de projets]{Vos initiatives nécessitent une phase d'étude de faisabilité que nous vous aidons à mener efficacement grâce à notre expérience avec diverses organisations dans plusieurs domaines}.
+ \end{description}
+\end{frame}
+
+\section{Business Model}
+\begin{frame}[fragile]{Notre modèle économique}
+\begin{figure}[!h]
+\centering
+\def\layersep{4em}
+\def\layerwidth{\paperwidth/1.01}
+\makebox[\textwidth][c]{
+\begin{tikzpicture}[
+% Here are defined the bocks and post-its parameters (e.g. shape, color and rotation)
+bloc/.style={
+rectangle,
+draw=gray,  very thin, inner sep=0,
+fill=lightgrey!10 },
+bloc1/.style={fill=red,
+bloc,
+minimum width = \layerwidth/5,
+minimum height= 4*\layersep },
+bloc2/.style={
+bloc,
+minimum width=\layerwidth/5,
+minimum height=2*\layersep },
+bloc3/.style={
+bloc,
+text width=\layerwidth/2,
+minimum height=\layersep },
+postit/.style={
+rectangle, text width=\layerwidth/6, 
+rotate around={0:(0,0)}, fill=fancyblue, text=white, font=\sf\scriptsize, rounded corners=2 },
+title/.style={
+anchor=north west,text centered,font=\sf, text=black},
+]
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%% DRAW THE CANVAS
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+% The 7 top blocks
+
+% We start drawing the top left bloc here
+% 1st, the block, then the title, then the post-it
+\node[bloc1] (b0) at (0*\layerwidth/10,3.5*\layersep) {};
+\node[title] at (b0.north west) {\blochdr{Parternaires clés}};
+\node[postit] at (b0.center) {
+ \tiny{* SSIIs $^{1}$}\\
+ \tiny{* Consultants Freelance$^{2}$}
+};
+
+\node[bloc2] (b1) at (2*\layerwidth/10,4.5*\layersep) {};
+\node[title] at (b1.north west) {\blochdr{Activités clés}};
+\node[postit] at (b1.center) {Conseil/Formations \\
+\tiny{* Système d'information} \\
+\tiny{* Gestion d'entreprise}
+
+};
+
+\node[bloc2] (b2) at (2*\layerwidth/10,3*\layersep) {};
+\node[title] at (b2.north west) {\blochdr{Ressources clés}};
+\node[postit] at (b2.center) {Experience et \mbox{Expertise} des consultants};
+
+\node[bloc1] (b3) at (4*\layerwidth/10,3.5*\layersep) {};
+\node[title] at (b3.north west) {\blochdr{Propositions de Valeur}};
+\node[postit] at (b3.center) {
+	\tiny{* Entreprise en croissance}\\
+	\tiny{* SI solide, performant }\\
+	\tiny{* Maîtrise coûts/profits}\\
+	\tiny{* Equipes bien formées}\\
+	\tiny{* RH en synergie }\\
+	\tiny{* Maîtrise comptabilité}\\
+	\tiny{* Maîtrise fiscalité }\\
+};
+
+\node[bloc2] (b4) at (6*\layerwidth/10,4.5*\layersep) {};
+\node[title] at (b4.north west) {\blochdr{Relation client}};
+\node[postit] at (b4.center) {Assistance \mbox{personnelle} dédiée};
+
+\node[bloc2] (b5) at (6*\layerwidth/10,2.5*\layersep) {};
+\node[title] at (b5.north west) {\blochdr{Canaux}};
+\node[postit] at (b5.center) {
+	\tiny{* direct}\\
+	\tiny{* services en ligne }\\
+	\tiny{* assistance à distance}\\
+
+};
+
+\node[bloc1] (b6) at (8*\layerwidth/10,3.5*\layersep) {};
+\node[title] at (b6.north west) {\blochdr{Segments clients}};
+\node[postit] at (b6.center) { \begin{tabular}{|l|} \hline PMEs$^{3}$ \\\hline Freelances$^{4}$ \\\hline \end{tabular} };
+
+%%%% The 2 bottom blocks
+\node[bloc3] (b7) at (1.5*\layerwidth/10,1.5*\layersep) {};
+\node[title] at (b7.north west) {\blochdr{Structure de coût}};
+\node[postit] at (b7.center) {
+	\tiny{* Frais équipements}\\
+	\tiny{* Frais missions}\\
+	\tiny{* Frais communications}\\
+};
+
+\node[bloc3] (b8) at (6.5*\layerwidth/10,1.5*\layersep) {};
+\node[title] at (b8.north west) {\blochdr{Source de revenue}};
+\node[postit] at (b8.center) {facturation:\\
+	\tiny{* au forfait mensuel}\\
+	\tiny{* au service}\\
+	\tiny{* au temps passé}\\
+};
+
+\end{tikzpicture}
+}
+\end{figure}
+\footnotetext[1]{Société de Services et d'Ingénierie en Informatique }
+\footnotetext[2]{Architectes en Systèmes d'Informations, Experts comptable, cabinets d'audit}
+\footnotetext[3]{PME souhaitant un accompagnement en gestion d'entreprise ou en informatique }
+\footnotetext[4]{Toute entreprise individuelle/libérale nécessitant formations et assistance }
+\end{frame}
+
+\section{Nous sommes à votre écoute !}
+\begin{frame}[fragile]{Nous contacter}
+\centering
+\textsf{\Huge{Contacts}}\\
+\vspace{3em}
+\sffamily
+\footnotesize
+\Email\  \href{mailto:yawo.kpotufe@yaosoft.co}{contact@yaosoft.co} | \phone\ +228 90 05 18 16 {\tiny ou} +33 753 51 03 62 | \checked\ www.yaosoft.co 
+\end{frame}
+\end{document}
+
+  
